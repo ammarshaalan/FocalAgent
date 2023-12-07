@@ -8,8 +8,8 @@ namespace FocalAgent.Services;
 
 public class CsvService : ICsvService
 {
-    private const string MetadataFilePath = "C:\\Users\\ammar\\Downloads\\FocalTechnicalExcercise\\metadata.csv";
-    private const string StatsFilePath = "C:\\Users\\ammar\\Downloads\\FocalTechnicalExcercise\\stats.csv";
+    private const string MetadataFilePath = "Path\\To\\Your\\Project\\metadata.csv";
+    private const string StatsFilePath = "Path\\To\\Your\\Project\\stats.csv";
 
     public List<Metadata> ReadMetadataFromCsv()
     {
